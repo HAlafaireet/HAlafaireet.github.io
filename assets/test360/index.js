@@ -6,7 +6,7 @@ import {
   View,
 } from 'react-360';
 
-export default class Sphere extends React.Component {
+export default class test360 extends React.Component {
   render() {
     return (
       <View style={styles.panel}>
@@ -40,4 +40,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('Sphere', () => Sphere);
+AppRegistry.registerComponent('test360', () => test360);
