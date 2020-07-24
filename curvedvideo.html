@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+  <script src="https://rawgit.com/Utopiah/googlepoly-load-component/master/googlepoly-load-component.js"></script>
+</head>
+
+
+
+<body>
+
+ 
+
+  <a-scene>
+    <a-assets>
+      <video id="myvideo" preload="auto" src="/assets/LG/lg_select_route.mp4" width="1280" height="720" autoplay="true"
+        loop="true" crossorigin="anonymous" playsinline="" webkit-playsinline=""></video>
+    </a-assets>
+
+
+    <!-- <a-entity position="1.76 1.2 -.888" id="videoscreen" material="shader: flat; side: double; src: #myvideo" geometry="primitive: cylinder; radius: 5; height: 3.6815; open-ended: true; theta-start: 142.5; theta-length: 75;"  rotation="0 0 0" scale="-1 1 1"></a-entity>-->
+
+
+    <a-videosphere side=back radius="10" geometry="phi-start:0; phi-length:60; theta-start:40; theta-length:50;"
+      src="#myvideo"></a-videosphere>
+    <a-videosphere side=back radius="10" geometry="phi-start:60; phi-length:60; theta-start:40; theta-length:50;"
+      src="#myvideo"></a-videosphere>
+    <a-videosphere side=back radius="10" geometry="phi-start:120; phi-length:60; theta-start:40; theta-length:50;"
+      src="#myvideo"></a-videosphere>
+    <a-videosphere side=back radius="10" geometry="phi-start:180; phi-length:60; theta-start:40; theta-length:50;"
+      src="#myvideo"></a-videosphere>
+    <a-videosphere side=back radius="10" geometry="phi-start:240; phi-length:60; theta-start:40; theta-length:50;"
+      src="#myvideo"></a-videosphere>
+    <a-videosphere side=back radius="10" geometry="phi-start:300; phi-length:60; theta-start:40; theta-length:50;"
+      src="#myvideo"></a-videosphere>
+
+
+    <a-videosphere side=back radius="10" geometry="phi-start:0; phi-length:60; theta-start:20; theta-length:20;"
+      src="#myvideo"></a-videosphere>
+    <a-videosphere side=back radius="10" geometry="phi-start:60; phi-length:60; theta-start:20; theta-length:20;"
+      src="#myvideo"></a-videosphere>
+    <a-videosphere side=back radius="10" geometry="phi-start:120; phi-length:60; theta-start:20; theta-length:20;"
+      src="#myvideo"></a-videosphere>
+    <a-videosphere side=back radius="10" geometry="phi-start:180; phi-length:60; theta-start:20; theta-length:20;"
+      src="#myvideo"></a-videosphere>
+    <a-videosphere side=back radius="10" geometry="phi-start:240; phi-length:60; theta-start:20; theta-length:20;"
+      src="#myvideo"></a-videosphere>
+    <a-videosphere side=back radius="10" geometry="phi-start:300; phi-length:60; theta-start:20; theta-length:20;"
+      src="#myvideo"></a-videosphere>
+
+    <a-videosphere side=back radius="10" geometry="phi-start:0; phi-length:60; theta-start:90; theta-length:40;"
+      src="#myvideo"></a-videosphere>
+    <a-videosphere side=back radius="10" geometry="phi-start:60; phi-length:60; theta-start:90; theta-length:40;"
+      src="#myvideo"></a-videosphere>
+    <a-videosphere side=back radius="10" geometry="phi-start:120; phi-length:60; theta-start:90; theta-length:40;"
+      src="#myvideo"></a-videosphere>
+    <a-videosphere side=back radius="10" geometry="phi-start:180; phi-length:60; theta-start:90; theta-length:40;"
+      src="#myvideo"></a-videosphere>
+    <a-videosphere side=back radius="10" geometry="phi-start:240; phi-length:60; theta-start:90; theta-length:40;"
+      src="#myvideo"></a-videosphere>
+    <a-videosphere side=back radius="10" geometry="phi-start:300; phi-length:60; theta-start:90; theta-length:40;"
+      src="#myvideo"></a-videosphere>
+
+
+
+
+
+    <!--<a-sphere material="shader: flat; side: back; src: #myvideo" radius="10" geometry="phi-length:90; theta-start:40; theta-length:60; "></a-sphere>
+      <a-sphere material="shader: flat; side: back; src: #myvideo" radius="10" geometry="phi-length:90; theta-start:100; theta-length:60; "></a-sphere>
+      <a-sphere material="shader: flat; side: back; src: #myvideo" radius="10" geometry="phi-start:90;phi-length:90; theta-start:100; theta-length:60; "></a-sphere>-->
+
+    <!--<a-entity src="#myvideo" material="shader: flat; side: double; src: #myvideo" geometry="primitive: sphere; radius:5;s phi-length:90; theta-length:90;"-->
+
+
+    <a-light type="ambient" color="#222"></a-light>
+    <a-light type="point" color="white" position="6.35348 1.54329 -1.74264" light="color:#ffffff"></a-light>
+  </a-scene>
+</body>
+
+</html>
