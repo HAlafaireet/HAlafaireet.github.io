@@ -4,12 +4,6 @@ main:
     url: /Home/
   - title: "Talks"
     url: /talks/
-  - title: "About"
-    url: /aboutme/
-  - title: "Sponsors"
-    url: /sponsors/
-  -title: "Team"
-    url: /Team/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
