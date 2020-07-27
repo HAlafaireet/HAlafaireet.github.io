@@ -4,7 +4,7 @@ main:
     url: /Home/
   - title: "Talks"
     url: /talks/
-    - title: "About"
+  - title: "About"
     url: /aboutme/
   - title: "Sponsors"
     url: /sponsors/
