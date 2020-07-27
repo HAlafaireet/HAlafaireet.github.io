@@ -25,6 +25,9 @@
 
   <a-scene>
     <a-assets>
+      <img id="cross" src="assets/cross.png">
+
+    </img>
     </a-assets>
       
 
@@ -45,7 +48,7 @@
     <a-videosphere side=back radius="10" geometry="phi-start:300; phi-length:60; theta-start:40; theta-length:50;"
       src="#myvideo"></a-videosphere>
 
-    <a-sphere side="double" color="red" radius="10" geometry=" theta-start: 0; theta-length:20;"></a-sphere>
+    <a-sphere side="double" material="shader: flat; src: #cross" radius="10" geometry=" theta-start: 0; theta-length:20;"></a-sphere>
     <a-sphere side="double" color="red" radius="10" geometry="theta-start: 130; theta-length:50;"></a-sphere>
 
 
