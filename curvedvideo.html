@@ -6,11 +6,7 @@
   <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
   <script src="https://rawgit.com/Utopiah/googlepoly-load-component/master/googlepoly-load-component.js"></script>
   <script>
-    var video = document.getElementById("myvideo");
-    video.oncanplaythrough = function() {
-    video.muted = true;
-    video.play();
-}
+   
 
 AFRAME.registerComponent('play-on-window-click', {
   init: function () {
@@ -24,6 +20,7 @@ AFRAME.registerComponent('play-on-window-click', {
   },
   onClick: function (evt) {
     var video = this.el.components.material.material.map.image;
+    console.log(video);
     if (!video) { return; }
     video.play();
   }
