@@ -5,6 +5,14 @@
   <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
   <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
   <script src="https://rawgit.com/Utopiah/googlepoly-load-component/master/googlepoly-load-component.js"></script>
+  <script>
+    var video = document.getElementById("myVideo");
+    video.oncanplaythrough = function() {
+    video.muted = true;
+    video.play();
+}
+
+  </script>
 </head>
 
 
